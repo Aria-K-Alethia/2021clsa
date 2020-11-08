@@ -5,14 +5,302 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-	<title>Audio Samples of the paper "Cross-lingual TTS synthesis via Domain Adaptation and Perceptual Similarity Regression in Speaker Space"</title>
+	<title>Audio Samples of the paper "Disentangled speaker and language representations using mutual information minimization and domain adaptation for cross-lingual TTS"</title>
 </head>
 <body>
     <article>
       <header>
-        <h1>test</h1>
+        <h1>Audio Samples of the paper "Disentangled speaker and language representations using mutual information minimization and domain adaptation for cross-lingual TTS</h1>
       </header>
     </article>
 
+    <p><b>Authors</b>: Detai Xin, Tatsuya Komatsu, Shinnosuke Takamichi, Hiroshi Saruwatari</p>
+
+    <div>
+    	<b>Note:</b>
+    	<span style="background-color: #FFFF00">In order to obtain best quality, we strongly encourage the listeners to take their headphones.</span>
+    </div>
+
+    <p class="toc_title">Contents</p>
+    <div id="toc_container">
+    <ul>
+      <li><a href="https://aria-k-alethia.github.io/cltts_dami/#intra_lingual">Intra-lingual TTS synthesis</a></li>
+      <li><a href="https://aria-k-alethia.github.io/cltts_dami/#cross_lingual">Cross-lingual TTS synthesis</a></li>
+    </ul>
+    </div>
+
+    <p>&nbsp;</p>
+      <div>
+        We use the combination of VCTK and JVS as training dataset. It includes 107 English and 100 Japanese speakers. We randomly picked 8 Japanese and 8 English speakers as unseen speaker. Audios of unseen speakers were excluded from the training dataset.
+	<br><br>
+		All of the utterances below are not included in training data.
+      </div>
+
+      <div>
+      <a name="intra_lingual"><h2>Intra-lingual TTS synthesis</h2></a>
+     
+      <a name="multi_tts.sample"><h3>English</h3></a>
+      <div class="text_gst">Text: These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon.
+</div>
+      <table>
+        <tbody>
+        <tr>
+			<td nowrap=""></td>
+			<td align="center">Ground Truth</td>
+			<td align="center">Conv.</td>
+			<td align="center">Prop.</td>
+			<td align="center">w/o MI</td>
+			<td align="center">w/o DA</td>
+			
+        </tr> 
+        <tr>
+          <td nowrap="">p253<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><audio controls=""><source src="audio/intra/raw/p253_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/p253_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/p253_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/p253_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/p253_06.wav"></audio></td>
+          
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: I was certainly wrong with my prediction of the result.</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">p275<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><audio controls=""><source src="audio/intra/raw/p275_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/p275_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/p275_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/p275_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/p275_05.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain.</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">p226<br>(unseen)</td>
+          <td><audio controls=""><source src="audio/intra/raw/p226_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/p226_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/p226_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/p226_05.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/p226_05.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: Dewar is certainly under attack from within his own party.</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">p265<br>(unseen)</td>
+          <td><audio controls=""><source src="audio/intra/raw/p265_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/p265_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/p265_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/p265_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/p265_02.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <a name="multi_tts.sample"><h3>Japanese</h3></a>
+      <div class="text_gst">Text: 少年時代は、ロシア帝国、チェルニーヒウ県、プルィルークィ郡、トロスチャヌィーツャ村で過ごした。</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+			<td nowrap=""></td>
+			<td align="center">Ground Truth</td>
+			<td align="center">Conv.</td>
+			<td align="center">Prop.</td>
+			<td align="center">w/o MI</td>
+			<td align="center">w/o DA</td>
+        </tr>
+        <tr>
+          <td nowrap="">jvs003<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><audio controls=""><source src="audio/intra/raw/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/jvs003_02.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: 裕福なニューヨーカー達は、グレーヴセンド、競馬場や、シープシェッドベイ、競馬場などに集い、海沿いの高級レストランや、ホテ
+    ルを利用した。</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">jvs004<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><audio controls=""><source src="audio/intra/raw/jvs004_14.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/jvs004_14.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/jvs004_14.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/jvs004_14.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/jvs004_14.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: 乾ドックに入渠して、オーバーホールすべきかどうか、パフォーマンスがチェックされた。</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">jvs036<br>(unseen)</td>
+          <td><audio controls=""><source src="audio/intra/raw/jvs036_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/jvs036_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/jvs036_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/jvs036_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/jvs036_01.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: このとき、ペリメーデーは、アムピクトリュオーンに同行して、テーバイに来ていた、リキュムニオスに、妻としてあたえられた。</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">jvs071<br>(unseen)</td>
+          <td><audio controls=""><source src="audio/intra/raw/jvs071_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/base/jvs071_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/prop/jvs071_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/womi/jvs071_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/intra/woda/jvs071_01.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+
+      <a name="cross_lingual"><h2>Cross-lingual TTS synthesis</h2></a>
+      <a name="multi_tts.sample"><h3>Japanese speaker, English speech</h3></a>
+      <div class="text_gst">Text: Last weekend in Germany, he missed the cut.</div>
+      <table>
+        <tbody>
+        <tr>
+			<td nowrap=""></td>
+			<td align="center">Reference</td>
+			<td align="center">Conv.</td>
+			<td align="center">Prop.</td>
+			<td align="center">w/o MI</td>
+			<td align="center">w/o DA</td>
+        </tr> 
+        <tr>
+          <td nowrap="">jvs003<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><audio controls=""><source src="audio/cross/raw/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/jvs003_02.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/jvs003_02.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows.</div>
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">jvs004<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><audio controls=""><source src="audio/cross/raw/jvs004_04.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/jvs004_04.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/jvs004_04.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/jvs004_04.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/jvs004_04.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+	  <div class="text_gst">Text: Obviously, someone is not doing their job properly.</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">jvs036<br>(unseen)</td>
+          <td><audio controls=""><source src="audio/cross/raw/jvs036_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/jvs036_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/jvs036_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/jvs036_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/jvs036_07.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: If the red of the second bow falls upon the green of the first, the result is to give a bow with an abnormally wide yellow band, since red and green light when mixed form yellow.</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">jvs071<br>(unseen)</td>
+          <td><audio controls=""><source src="audio/cross/raw/jvs071_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/jvs071_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/jvs071_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/jvs071_07.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/jvs071_07.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+
+      <a name="multi_tts.sample"><h3>English speaker, Japanese speech</h3></a>
+      <div class="text_gst">Text: レギュラーメンバーの顔写真をクリックした後に、ムービープレイヤー風に再生されるという、特異な形式となっている。</div>
+      <table>
+        <tbody>
+        <tr>
+			<td nowrap=""></td>
+			<td align="center">Reference</td>
+			<td align="center">Conv.</td>
+			<td align="center">Prop.</td>
+			<td align="center">w/o MI</td>
+			<td align="center">w/o DA</td>
+        </tr> 
+        <tr>
+          <td nowrap="">p253<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+         <td><audio controls=""><source src="audio/cross/raw/p253_03.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/p253_03.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/p253_03.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/p253_03.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/p253_03.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: 学校や病院などの、給食業務で、栄養素を計算する上で、重要な資料のひとつである。</div>
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">p275<br>(seen)&nbsp;&nbsp;&nbsp;&nbsp;</td>
+         <td><audio controls=""><source src="audio/cross/raw/p275_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/p275_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/p275_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/p275_01.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/p275_01.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
+	  <div class="text_gst">Text: クウェーンバーンチャーンは、小さなコミュニティーで、農業や、商業を中心に、成り立っていたと、考えられている。</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">p226<br>(unseen)</td>
+        <td><audio controls=""><source src="audio/cross/raw/p226_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/p226_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/p226_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/p226_06.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/p226_06.wav"></audio></td>
+        </tr>
+        </tr>
+       </tbody>
+      </table>
+      <div class="text_gst">Text: ブルーリッジ山脈の源流から、リッチモンドまで、多くの早瀬や淵が、釣りや急流くだりを楽しませてくれる。</div>
+      <!--Text: The plenty around me, the ease and independence, gave me a delightful sense of comfort.</h4>-->
+      <table>
+        <tbody>
+        <tr>
+          <td nowrap="">p265<br>(unseen)</td>
+           <td><audio controls=""><source src="audio/cross/raw/p265_08.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/base/p265_08.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/prop/p265_08.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/womi/p265_08.wav"></audio></td>
+          <td><audio controls=""><source src="audio/cross/woda/p265_08.wav"></audio></td>
+        </tr>
+       </tbody>
+      </table>
  </body>
  </html>
